@@ -1,0 +1,6 @@
+# Used for loading factions hooks
+#
+# Format:
+# <built-in hook> <factions version>
+com.drtshock.obsidiandestroyer.managers.factions.Factions27x 2.7
+com.drtshock.obsidiandestroyer.managers.factions.Factions27x 2.8

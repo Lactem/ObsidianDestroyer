@@ -59,7 +59,7 @@
         <dependency>
             <groupId>org.bukkit</groupId>
             <artifactId>bukkit</artifactId>
-            <scope>provided</scope>
+            <scope>compile</scope>
             <version>LATEST</version>
         </dependency>
         <dependency>
@@ -72,46 +72,6 @@
             <groupId>com.drtshock</groupId>
             <artifactId>ObsidianDestroyer-Factions-Integration</artifactId>
             <version>integration</version>
-            <type>jar</type>
-            <scope>compile</scope>
-            <optional>true</optional>
-        </dependency>
-        <dependency>
-            <groupId>com.drtshock</groupId>
-            <artifactId>ObsidianDestroyer-Factions-v1_6_9</artifactId>
-            <version>v1_6_9</version>
-            <type>jar</type>
-            <scope>compile</scope>
-            <optional>true</optional>
-        </dependency>
-        <dependency>
-            <groupId>com.drtshock</groupId>
-            <artifactId>ObsidianDestroyer-Factions-v1_6_9_UU</artifactId>
-            <version>v1_6_9_UU</version>
-            <type>jar</type>
-            <scope>compile</scope>
-            <optional>true</optional>
-        </dependency>
-        <dependency>
-            <groupId>com.drtshock</groupId>
-            <artifactId>ObsidianDestroyer-Factions-v1_8_x</artifactId>
-            <version>v1_8_x</version>
-            <type>jar</type>
-            <scope>compile</scope>
-            <optional>true</optional>
-        </dependency>
-        <dependency>
-            <groupId>com.drtshock</groupId>
-            <artifactId>ObsidianDestroyer-Factions-v2_5_x</artifactId>
-            <version>v2_5_x</version>
-            <type>jar</type>
-            <scope>compile</scope>
-            <optional>true</optional>
-        </dependency>
-        <dependency>
-            <groupId>com.drtshock</groupId>
-            <artifactId>ObsidianDestroyer-Factions-v2_6_x</artifactId>
-            <version>v2_6_x</version>
             <type>jar</type>
             <scope>compile</scope>
             <optional>true</optional>
