@@ -25,10 +25,8 @@ public class Factions27x implements FactionsHook {
     @Override
     public boolean isExplosionsEnabled(Location loc) {
         Faction faction = BoardColl.get().getFactionAt(PS.valueOf(loc));
-        if (faction == null)
-        	return true;
         //ObsidianDestroyer.debug("Factions25x.isExplosionsEnabled: " + faction.getFlag(FFlag.EXPLOSIONS));
-        return faction.getFlag(MFlag.ID_EXPLOSIONS);
+        return faction == null || faction.getFlag(MFlag.ID_EXPLOSIONS);
     }
 
     @Override
